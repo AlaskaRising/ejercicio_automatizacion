@@ -1,6 +1,5 @@
 from behave import *
 from pares import *
-
 from behave import register_type
 from hamcrest import assert_that, equal_to
 
