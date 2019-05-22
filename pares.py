@@ -1,6 +1,11 @@
-1	num = int(input("Ingrese un número: "))
-2	mod = num % 2
-3	if mod > 0:
-4	    print("Este es un número impar.")
-5	else:
-6	    print("Este es un número Par.")
+class Numeros():
+    def __init__(self):
+        self.numeros_pares = []
+
+    def saber_si_es_par(num):
+        mod = num % 2
+	    if mod > 0:            
+	        return False
+	    else:
+            self.numeros_pares += num
+	        return Trues
