@@ -5,7 +5,7 @@ Ejercicio de automatización para el desarrollo de un producto de software
 
 Todos los proyectos alojados en este repositorio han sido elaborados por :
 - Miguel Angel Vega Alonso @Miavega
-- Nicolas Steeven Rivera
+- Nicolas Steeven Rivera 
 - María Camila Guerrero Giraldo
 
 ### Producto
