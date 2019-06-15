@@ -5,7 +5,7 @@ Ejercicio de automatización para el desarrollo de un producto de software
 
 Todos los proyectos alojados en este repositorio han sido elaborados por :
 - Miguel Angel Vega Alonso @Miavega
-- Nicolas Steeven Rivera 
+- Nicolas Steeven Rivera
 - María Camila Guerrero Giraldo
 
 ### Producto
@@ -37,3 +37,44 @@ behave
 4. A continuación verá los resultados de las pruebas automatizadas con BDD .
 
 ![Resultados Test](https://github.com/AlaskaRising/ejercicio_automatizacion/blob/master/resultado.PNG)
+
+## Docker
+### Pre-requisitos 📋
+
+_Cosas necesarias para instalar el software y como instalarlas_
+
+```
+Docker versión 3.3
+```
+
+### Instalación 🔧
+
+_Construir la imagen de Docker Compose_
+
+```
+docker-compose build
+```
+
+_Subir el Docker Compose_
+
+```
+docker-compose up
+```
+
+_El servidor se ejecuta en el puerto 8080_
+_http://localhost:8080/_
+
+## Resultados
+_Al crear la tarea y enlazarla al [repositorio](https://github.com/AlaskaRising/ejercicio_automatizacion) los resultados son:_
+
+![Resultados Test Valido](https://github.com/AlaskaRising/ejercicio_automatizacion/blob/master/jenkins1.PNG)
+![Resultados Test Valido Completo](https://github.com/AlaskaRising/ejercicio_automatizacion/blob/master/jenkins2.PNG)
+![Resultados Test Fallido](https://github.com/AlaskaRising/ejercicio_automatizacion/blob/master/jenkins3.PNG)
+
+## Construido con 🛠️
+
+_Herramientas_
+
+* [Behave](https://behave.readthedocs.io/en/latest/) - Utiliza pruebas escritas en lenguaje natural, respaldadas por código Python.
+* [Unittest](https://docs.python.org/3/library/unittest.html) - Framework de pruebas unitarias en Python.
+* [Jenkins](https://jenkins.io/) - Jenkins es un servidor de automatización open source escrito en Java.
