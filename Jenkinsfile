@@ -13,7 +13,7 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          dir("test") {
+          dir("") {
             dockerImage = docker.build "${env.ARTIFACT_ID}"
           }
         }
@@ -21,13 +21,13 @@ pipeline {
     }
     stage('Run unit tests') {
       steps {
-        sh "docker run ${dockerImage.id} python test.py -v"
+        sh "docker run ${dockerImage.id} python test_pares.py -v"
       }
     }
     stage('Validate feature') {
       steps {
         script {
-          dir("test") {
+          dir("") {
             sh "docker run ${dockerImage.id} behave"
           }
         }
